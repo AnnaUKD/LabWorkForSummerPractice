@@ -8,12 +8,10 @@ class Student:
         self.grades = grades
 
 
-# Створюємо звичайну функцію для сортування
 def way_to_sort(student):
     return (student.group, student.surname)
 
 
-# База даних
 db = [
     Student("Бондар", "ІПЗ-24-2", [95, 88, 92]),
     Student("Абакумова", "ІПЗ-24-2", [80, 85, 88]),

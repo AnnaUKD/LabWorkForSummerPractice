@@ -2,7 +2,7 @@ print("Завдання 1")
 
 print("Хрещення Русі відбулося в 988р.")
 current_year = int(input("Який зараз рік?: "))
-print(f"З того часу пройшло {current_year} років.")
+print(f"З того часу пройшло {current_year - 988} років.")
 
 
 print("Завдання 2")
@@ -25,7 +25,7 @@ print(f"Сума введених чисел дорівнює {calculate_sum(fir
 
 print("Завдання 3")
 
-no = int(input("Введіть № п/п: "))
+number_of_pp = int(input("Введіть № п/п: "))
 culture = str(input("Введіть назву с/г культури: "))
 plan = float(input("Введіть план: "))
 fact = float(input("Введіть факт: "))
@@ -40,5 +40,5 @@ percentage = round(percentage, 2)
 print("--------------------------------------------------")
 print("№ п/п | С/г культура | План | Факт | %")
 print("--------------------------------------------------")
-print(f"{no} | {culture} | {plan} | {fact} | {percentage}")
+print(f"{number_of_pp} | {culture} | {plan} | {fact} | {percentage}")
 print("--------------------------------------------------")

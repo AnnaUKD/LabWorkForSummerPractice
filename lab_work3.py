@@ -16,9 +16,6 @@ for i in range(21):
 
 print("Завдання 2")
 
-import math
-
-
 a = 2.5
 b = 0.4
 t = -1.0

@@ -49,7 +49,7 @@ if neg_count == 0:
 
 avg = total_sum / n
 
-print("--- РЕЗУЛЬТАТИ ---")
+print("РЕЗУЛЬТАТИ ОБЧИСЛЕНЬ")
 print("Додатні: сума =", pos_sum, ", кількість =", pos_count)
 print("Від'ємні: добуток =", neg_product, ", кількість =", neg_count)
 print("Середнє арифметичне всього масиву =", round(avg, 2))

@@ -7,7 +7,7 @@ for _ in range(5):
     product *= a
     a = a - 1 / (a**2) - 1 / (a**3)
 
-print("Добуток обчислювань:", product)
+print("Добуток 5-ти перших елементів даного рядку:", product)
 
 print("Задача 2")
 
@@ -32,9 +32,9 @@ def result(res):
 
 x, y, z = entering_numbers()
 
-denominator  = find_min(x, y, z)
+denominator = find_min(x, y, z)
 
-if denominator  != 0:
+if denominator != 0:
     numerator  = find_max(x, y, z) * find_min(y, z, z) * find_min(x, y, y)
     result(numerator / denominator )
 else:
